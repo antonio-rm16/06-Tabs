@@ -2,38 +2,36 @@
 h1{
 text-align: center;
 }
+
 .tabPanel{
    position: relative;
    display: flex;
-  height: 90vh;
+   width: 720px;
    padding: 30px 30px;
-   
+   margin:auto;
 }
 .boxPanel{
-  position: absolute;
-    margin:auto;
-     width: 90vw;
-    border-bottom: 2px steelblue solid;
+  position: absolute; 
+    border-bottom: 3px steelblue solid;
     
 }
 .contentTab{
   position: absolute;
-  font-size: 14pt;
-  width: 90vw;
-  border: 2px steelblue solid;
+  font-size: 12pt;
+  border: 3px steelblue solid;
   border-top: none;
-  padding: 30px 0;
-  
+  padding: 30px 0; 
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
 
 .contentTab > img{
-  border-radius: 50%;
+border-radius: 50%;
  float: left;
- margin: 30px;
+ padding: 30px;
 }
 .contentTab > p{
   font-family: sans-serif;
-  width: 90%;
   letter-spacing: 1px;
   word-spacing: 2px;
   line-height: 1.5rem;
@@ -41,20 +39,24 @@ text-align: center;
 
 .but{
   background-color: transparent;
-  border: none;
-  padding: 0 10px;
-  margin: 0;
-  font-size: 18pt;
+  border: 2px rgb(209, 222, 235) solid;
+  border-bottom: none;
+  padding: 10px 20px;
+  margin: 0 0px;
+  font-size: 12pt;
   color: gray;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
 }
 .but:hover{
   cursor: pointer;
   background-color: rgb(240, 238, 238);
 }
 .Active{
+  font-size: 14pt;
   border: 3px steelblue solid;
-  border-bottom:4px white solid;
-  margin:-2px 0;
+  border-bottom:3px white solid;
+  margin:-3px 0;
   font-weight: 650;
   color: steelblue;
   animation: 0.5s selectTab linear;
