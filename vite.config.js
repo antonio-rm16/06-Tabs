@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base:"https://github.com/antonio-rm16/06-Tabs/",
+  base:'https://antonio-rm16.github.io/06-Tabs/',
 })
