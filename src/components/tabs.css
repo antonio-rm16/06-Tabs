@@ -1,0 +1,76 @@
+
+h1{
+text-align: center;
+}
+.tabPanel{
+   position: relative;
+   display: flex;
+  height: 90vh;
+   padding: 30px 30px;
+   
+}
+.boxPanel{
+  position: absolute;
+    margin:auto;
+     width: 90vw;
+    border-bottom: 2px steelblue solid;
+    
+}
+.contentTab{
+  position: absolute;
+  font-size: 14pt;
+  width: 90vw;
+  border: 2px steelblue solid;
+  border-top: none;
+  padding: 30px 0;
+  
+}
+
+.contentTab > img{
+  border-radius: 50%;
+ float: left;
+ margin: 30px;
+}
+.contentTab > p{
+  font-family: sans-serif;
+  width: 90%;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  line-height: 1.5rem;
+}
+
+.but{
+  background-color: transparent;
+  border: none;
+  padding: 0 10px;
+  margin: 0;
+  font-size: 18pt;
+  color: gray;
+}
+.but:hover{
+  cursor: pointer;
+  background-color: rgb(240, 238, 238);
+}
+.Active{
+  border: 3px steelblue solid;
+  border-bottom:4px white solid;
+  margin:-2px 0;
+  font-weight: 650;
+  color: steelblue;
+  animation: 0.5s selectTab linear;
+}
+
+@keyframes selectTab{
+  0%  {
+  transform: scale(.7);
+  background-color: transparent;
+  }
+  35%{
+    transform: scale(1.2);
+    background-color: lightsteelblue;
+  }
+  100% {
+    transform: scale(1);
+    background-color: transparent;
+  }
+}
