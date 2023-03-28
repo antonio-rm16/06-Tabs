@@ -59,7 +59,7 @@ border-radius: 50%;
   margin:-3px 0;
   font-weight: 650;
   color: steelblue;
-  animation: 0.5s selectTab linear;
+  animation: 0.4s selectTab linear;
 }
 
 @keyframes selectTab{
